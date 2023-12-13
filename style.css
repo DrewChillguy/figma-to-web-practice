@@ -1,0 +1,142 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8F0;
+}
+
+h1 {
+    font-family: League Spartan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #190D37;
+}
+
+h2 {
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+}
+
+.bigtext {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #331E6A;
+    margin: 0 30px 0 0;
+}
+
+#hero-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#hero-text {
+    width: 50%;
+    margin-left: 190px;
+}
+
+#phone-email {
+    margin: 30px 30px 0 0;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+#say-hi {
+    color: #331E6A;
+    margin-top: 69px;
+}
+
+#hero-image-width {
+    width: 50%;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+#contact-btn {
+    width: 138px;
+    height: 44px;
+    top: 456px;
+    left: 190px;
+    border-radius: 4px;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: none;
+}
+
+#contact-btn:hover {
+    cursor: pointer;
+    background-color: #3f3f46;
+}
+
+/*-- WHAT I DO--*/
+
+#what-i-do-section {
+    text-align: center;
+    max-width: 700px;
+    margin: 96px auto 48px auto;
+}
+
+#what-i-do {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2858FF;
+}
+
+#what-i-do p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2858FF;
+    margin: 4px 0 4px 0;
+}
+
+#what-i-do-section h2 {
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: 000000;
+    margin: 4px 0 4px 0;
+}
+
+#experience {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #190D37;
+    margin: 4px 0 4px 0;
+}
+
+/*--Career---*/
+
+#career-section {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto 4px auto;
+}
+
+.career-group {
+    width: 30%;
+border-radius: 10px;
+background-color: #FFFFFF;
+}
