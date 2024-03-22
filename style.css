@@ -3,10 +3,13 @@ html {
 }
 
 body {
-    font-family: Inter;
-    margin: 0;
-    padding: 0;
     background-color: #FFF8F0;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -15,98 +18,91 @@ h1 {
     font-weight: 700;
     line-height: 50px;
     color: #190D37;
+    margin: 10px 20px 30px 0;
 }
 
 h2 {
     font-family: League Spartan;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 40px;
     color: #000000;
 }
 
 .bigtext {
+    color: #331E6A;
     font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
-    color: #331E6A;
-    margin: 0 30px 0 0;
+    margin-bottom: 20px;
 }
 
 #hero-section {
+    display: flex;
     max-width: 1440px;
     margin: 0 auto;
-    display: flex;
 }
 
 #hero-text {
     width: 50%;
-    margin-left: 190px;
+    padding: 32px 20px 32px 20px;
 }
 
-#phone-email {
-    margin: 30px 30px 0 0;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-}
-
-#say-hi {
-    color: #331E6A;
-    margin-top: 69px;
-}
-
+/*****!!!****/
 #hero-image-width {
     width: 50%;
 }
 
 #hero-image {
     width: 100%;
+    border-radius: 0 0 10% 10%;
 }
 
-#contact-btn {
+#phone-email {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+}
+
+#hi-and-name {
+    margin-top: 52px;
+}
+
+#contact-hero {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
     width: 138px;
     height: 44px;
-    top: 456px;
-    left: 190px;
     border-radius: 4px;
     background-color: #2F2F2F;
     color: #FFFFFF;
-    margin-top: 20px;
-    border-radius: 7px;
-    border: none;
 }
 
-#contact-btn:hover {
+#contact-hero:hover {
     cursor: pointer;
     background-color: #3f3f46;
 }
 
-/*-- WHAT I DO--*/
+/*----- WHAT I DO-----*/
 
 #what-i-do-section {
+    max-width: 1440px;
+    margin: 0 auto;
     text-align: center;
-    max-width: 700px;
-    margin: 96px auto 48px auto;
 }
 
-#what-i-do {
+#what-i-do-text {
     font-family: Poppins;
     font-size: 12px;
     font-weight: 600;
     line-height: 18px;
+    margin-top: 96px;
     color: #2858FF;
-}
-
-#what-i-do p {
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 18px;
-    color: #2858FF;
-    margin: 4px 0 4px 0;
 }
 
 #what-i-do-section h2 {
@@ -114,8 +110,7 @@ h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
-    color: 000000;
-    margin: 4px 0 4px 0;
+    margin: 8px 0 8px 0;
 }
 
 #experience {
@@ -124,19 +119,185 @@ h2 {
     font-weight: 400;
     line-height: 27px;
     color: #190D37;
+    margin-bottom: 48px;
+}
+
+
+/*----JOB TITLE----*/
+
+
+#job-section {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.job-container {
+    width: 340px;
+    height: 291px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+}
+
+.job-title {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #000000;
+    margin: 20px 20px 8px 20px;
+}
+
+.job-detail {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0 30px 20px 30px;
+}
+
+/*---MY PROJECT---*/
+
+#my-project {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#project-below {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 96px;
+    color: #2858FF;
+}
+
+#my-project h2 {
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 8px 0 8px 0;
+}
+
+#project-intro {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #190D37;
+    margin-bottom: 48px;
+}
+
+/*---ARCHIEVEMENT---*/
+
+#archivement-container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+#icon-background-1 {
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #19ACFF;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+}
+
+#icon-background-2 {
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #FFE819;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+}
+
+#icon-background-3 {
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #FF1919;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+}
+
+#archieve {
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+
+#archieve-row {
+    width: 85%;
+    margin-left: 20px;
+}
+
+#archieve-title {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #291854;
     margin: 4px 0 4px 0;
 }
 
-/*--Career---*/
-
-#career-section {
-    display: flex;
-    max-width: 1440px;
-    margin: 0 auto 4px auto;
+#archieve-docs {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 4px 0 4px 0;
 }
 
-.career-group {
-    width: 30%;
-border-radius: 10px;
-background-color: #FFFFFF;
+#archieve a {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #6A87A3;
+    text-decoration: none;
+}
+
+/*---FOOTER---*/
+
+#footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 58px;
+    background-color: #000000;
+    margin: 100px auto 0 auto;
+}
+
+#footer p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin: 20px 0 20px 0;
 }
